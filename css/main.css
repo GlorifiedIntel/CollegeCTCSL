@@ -23,3 +23,21 @@
     background-color: #3a3838;
     color: whitesmoke;
 }
+
+/*** Welcome ***/
+
+.elhanan {
+    font-family: sans-serif;
+    font-size: 17px;
+    text-align: justify;
+}
+
+.contact {
+    margin-top: 5px;
+    margin-bottom: 15px;
+}
+
+.download {
+    font-size: 30px;
+    text-align: center;
+}
