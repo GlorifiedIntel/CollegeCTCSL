@@ -1,0 +1,25 @@
+/*** About ***/
+
+.eliora {
+    font-size: 17px;
+    text-align: justify;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.eliakim {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 14px;
+    text-align: justify;
+    padding-right: 10px;
+}
+/*** Navbar ***/
+.dropdown-menu {
+    background-color: #333;
+    border-radius: 0;
+    border: 1px solid white;
+}
+
+.top-bar {
+    background-color: #3a3838;
+    color: whitesmoke;
+}
