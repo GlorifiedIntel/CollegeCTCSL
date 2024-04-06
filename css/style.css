@@ -206,7 +206,7 @@ h6,
 .page-header {
     padding-top: 12rem;
     padding-bottom: 6rem;
-    background: url(../img/header.jpg) top left no-repeat;
+    background: #F5F5F5;
     background-size: cover;
 }
 
@@ -361,59 +361,52 @@ h6,
 
 /*** Team ***/
 .team-item {
-    position: relative;
-    padding: 4rem 0;
-}
-
-.team-item img {
-    position: relative;
-    z-index: 2;
+    box-shadow: 0 0 45px rgba(0, 0, 0, .07);
 }
 
 .team-item .team-text {
+    position: relative;
+    height: 65px;
+    overflow: hidden;
+}
+
+.team-item .team-title {
     position: absolute;
+    width: 100%;
+    height: 100%;
     top: 0;
-    right: 3rem;
-    bottom: 0;
-    left: 3rem;
-    padding: 15px;
-    border: 1px solid var(--light);
-    border-radius: 8px;
+    left: 0;
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: space-between;
-    transition: .5s;
-    z-index: 1;
-}
-
-.team-item:hover .team-text {
-    background: var(--primary);
-    border-color: var(--primary);
-}
-
-.team-item .team-text h4 {
+    justify-content: center;
     transition: .5s;
 }
 
-.team-item:hover .team-text h4 {
-    color: #FFFFFF;
+.team-item:hover .team-title {
+    top: -65px;
+}
+
+.team-item .team-social {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 65px;
+    left: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #FFFFFF;
+    transition: .5s;
 }
 
 .team-item .team-social .btn {
-    background: var(--light);
-    color: var(--primary);
+    margin: 0 3px;
 }
 
-.team-item:hover .team-social .btn {
-    background: #FFFFFF;
+.team-item:hover .team-social {
+    top: 0;
 }
-
-.team-item .team-social .btn:hover {
-    background: var(--primary);
-    color: var(--light);
-}
-
 
 /*** Testimonial ***/
 .testimonial-item {
