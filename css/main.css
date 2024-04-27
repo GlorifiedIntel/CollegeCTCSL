@@ -85,3 +85,51 @@
   .tab button.active {
     background-color: #024430;
   }
+
+/* Vertical Menu */
+
+.vertical-menu {
+  width: 200px; 
+  text-align: center;
+  
+}
+
+.vertical-menu a {
+  background-color: #033a5a; 
+  color: whitesmoke; 
+  display: block; 
+  padding: 12px; 
+  text-decoration: none;
+  border-bottom: 1px solid white; 
+}
+
+.vertical-menu a:hover {
+  background-color: #f0a606; 
+}
+
+.vertical-menu a.active {
+  background-color: #5a1823; 
+  color: white;
+}
+
+.right {
+  width: 750px;
+}
+
+.monthly {
+  font-family: sans-serif;
+  font-size: 19px;
+  text-align: justify;
+}
+
+.monthly-2 {
+  font-family: sans-serif;
+  font-size: 20px;
+  text-align: justify;
+  font-weight: bold;
+}
+
+.icon {
+  width: 64px;
+  height: 64px;
+}
