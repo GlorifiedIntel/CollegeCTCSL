@@ -138,3 +138,11 @@
   margin-top: 50px;
   margin-left: 500px;
 }
+
+.callout {
+  margin-left: 120px;
+  margin-right: 120px;
+  font-size: 18px;
+  font-family: sans-serif;
+  text-align: justify;
+}
